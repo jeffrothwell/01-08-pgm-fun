@@ -90,3 +90,14 @@ class Cohort
   end
 
 end
+
+rosie_start_date = Date.new(2017, 12, 4)
+
+rosie = Cohort.new(rosie_start_date)
+
+rosie.class_days
+
+p rosie.class_days
+
+p rosie.last_day
+p rosie.class_days.last
